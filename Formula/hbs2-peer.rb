@@ -9,7 +9,7 @@ class Hbs2Peer < Formula
   on_macos do
     on_arm do
       url "https://github.com/NCrashed/hbs2/releases/download/0.25.4.0/hbs2-0.25.4.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2522bf1257b94bddcc23561aa61361d2926d74f888a6c071502f74a378680f79"
+      sha256 "35ce689a58258fd0d4a7145b1d07f22a1e6948d6b2f5be594885382aded12187"
     end
   end
 
