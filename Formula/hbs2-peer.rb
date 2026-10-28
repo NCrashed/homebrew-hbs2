@@ -17,6 +17,7 @@ class Hbs2Peer < Formula
     bin.install Dir["bin/*"]
     lib.install Dir["lib/*"]
     pkgshare.install "README.txt"
+    (share/"hbs2-hub").install Dir["share/hbs2-hub/*"] if File.directory?("share/hbs2-hub")
   end
 
   def caveats
