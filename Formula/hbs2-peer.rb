@@ -1,15 +1,15 @@
 class Hbs2Peer < Formula
   desc "Hash-addressed distributed storage peer"
   homepage "https://github.com/NCrashed/hbs2"
-  version "0.26.0.4"
+  version "0.26.0.5"
   license "BSD-3-Clause"
 
   # Apple Silicon only. Intel users can fall back to
   # `nix run github:NCrashed/hbs2#hbs2-peer` or Docker.
   on_macos do
     on_arm do
-      url "https://github.com/NCrashed/hbs2/releases/download/0.26.0.4/hbs2-0.26.0.4-aarch64-apple-darwin.tar.gz"
-      sha256 "04a7828971987b3af925738d9664b5465df407c85b0c745076ccb33196bebc3b"
+      url "https://github.com/NCrashed/hbs2/releases/download/0.26.0.5/hbs2-0.26.0.5-aarch64-apple-darwin.tar.gz"
+      sha256 "00d967e7e76aaaa241e3650f23b37c588342334840b96838e78eaf35dde121bf"
     end
   end
 
